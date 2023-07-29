@@ -1,0 +1,1095 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    width: 100%;
+    font-family: "Netflix Sans", "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif;
+
+}
+
+.navbar-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding:20px 120px;
+
+}
+a{
+    text-decoration: none;
+    color: #000000;
+}
+.imagelogonet{
+        width: 180px;
+    }
+select{
+    background-color: #23232366;
+    color: white;
+    padding: 8px 30px;
+    font-size: 18px;
+    font-weight: 500;
+    margin: 10px 5px;
+    margin-top: 25px;
+    border: 1px solid #33333376;
+    border-radius: 8px;
+    position: relative;
+
+    
+
+}
+option{
+    font-size: 18px;
+    color: #ffffff;
+    background-color: #0071eb;
+}
+.sign-in{
+    position: relative;
+}
+.world{
+    position: absolute;
+    /* font-size: 28px; */
+    top: 36px;
+    right: 208px; 
+    color: #ffffff;
+    z-index: 2;
+}
+
+ .signin-header{
+    font-size: 18px;
+    font-weight: 500;
+    text-align: center;
+    padding: 8px 15px;
+    background-color: #e50914;
+    color: #ffffff;
+    border-radius: 8px;
+    transition: all 0.5s;
+}
+
+.signin-header:hover{
+    background-color: #b00f17;
+}
+.Email-section{
+    padding:20px 120px;
+    text-align: center;
+    margin-top:150px;
+
+}
+.emailsection-para1{
+    font-size: 44px;
+    text-align: center;
+    font-weight: 800;
+    margin-bottom: 18px;
+    color: #ffffff;
+}
+.emailsection-para2{
+    font-size: 25px;
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 18px;
+    color: #ffffff;
+}
+.emailsection-para3{
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #ffffff;
+
+}
+#Email-IDleft{
+    width: 350px;
+    padding: 15px;
+    font-size: 20px;
+    border-radius: 8px;
+    background-color: #23232365;
+    
+}
+.get-startedright{
+    background-color: #e50914;
+    border-radius: 8px;
+    font-size: 24px;
+    color: #ffffff;
+    font-weight: 600;
+    padding: 15px 25px;
+    margin-left: 10px;
+    transition: all 0.5s;
+
+}
+.get-startedright:hover{
+    background-color: #b00f17;
+}
+.arrow{
+    font-size: 25px;
+    font-weight: 800;
+}
+.first-sectionNetflix{
+    width: 100%;
+    height:669px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.9),rgba(0, 0, 0, 0.7)), url("backgroundimagenetflix.jpg");
+    background-size: 110% 130%;
+    background-repeat: no-repeat;
+               
+}
+
+.bootom-line{
+    width: 100%;
+    height: 8px;
+    background-color: #333333;
+}  
+
+/* 2nd-section-enjoysection  */
+.Enjoy-section{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 80px 50px;
+    background-color: #000000;
+    color: #ffffff;
+    width: 100%;
+}
+
+.enjoy-leftsection{
+    width: 600px;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 50px;
+}
+
+.leftsection-enjoypara1{
+    font-size: 48px;
+    font-weight: 800;
+    text-align: left;
+}
+.leftsection-enjoypara2{
+    font-family: "Netflix Sans", "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif;
+    font-size: 24px ;
+    font-weight: 400;
+    padding: 20px 0;
+    line-height: 31px;
+
+    
+}
+
+.tv-netflix{
+
+    background-image: url(https://i.gifer.com/H95B.gif);
+    background-repeat: no-repeat;
+    background-size: 100% -10%;
+    background-position-y: center;
+    background-position-x: center;
+}
+
+/* Thirdsection-DownloadTVshow */
+.Thirdsection-DownloadTVshow{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap-reverse;
+    justify-content: center;
+
+    padding: 50px 30px;
+    background-color: #000000;
+    color: #ffffff;
+
+}
+
+.leftdownload-imagesection{
+    position: relative;
+}
+.moblieimage{
+    width: 550px;
+}
+.strangerthing-download{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 300px;
+    background-color: #000000;
+    border: 2px solid #ffffff;
+    padding: 8px 10px;
+    box-shadow: rgb(0, 0, 0) 0px 0px 32px 0px ;
+    border-radius: 12px;
+    position: absolute;
+    top: 0%;
+    right: 125px;
+    top: 295px;
+    
+}
+.strangerthing-poster{
+    width: 50px;
+
+}
+.downloadimage-gif{
+    width: 40px;
+    margin-left: -10px;
+    transition: all 0.5s;
+}
+.downloadimage-gif:hover{
+    cursor: pointer;
+    transform: scale(1.3);
+
+}
+.download-stpara1{
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
+    color: #ffffff;
+}
+.download-stpara2{
+    font-size: 14px;
+    font-weight: 500;
+    color: #0071eb;
+}
+.download-st{
+    align-self: center;
+    margin-left: -40px;
+    
+}
+.rightdownload-infosection{
+    width: 640px; 
+    padding-top: 120px;
+}
+.rightdownload-infosectionpara-1{
+    font-size: 46px;
+    font-weight:800;
+    padding-right: 100px;
+    text-align: left;
+
+}
+
+.rightdownload-infosectionpara-2{
+  
+    font-size: 22px;
+    font-weight: 400;
+    padding: 10px 0;
+    padding-right: 150px;
+ 
+}
+
+/* fouth-section watch Everywhere  */
+.fouth-section-everyWhere{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 80px 80px;
+    background-color: #000000;
+ 
+    color: #ffffff;
+}
+.appletv{
+    width: 470px;
+    background-image: url(OvCg.gif);
+    
+    background-repeat: no-repeat;
+    background-size: 70% 60%;
+    background-position-x: 40%;
+    background-position-y: 10%;
+    overflow: hidden;
+    padding-right: 20px;
+    box-shadow: rgb(0, 0, 0) 0px 0px 80px 0px ;
+}
+.leftsection-everywhere{
+    width: 580px;
+    padding-left: 20px; 
+}
+.leftsection-everywherepara1{
+    font-size: 48px;
+    text-align: left;
+    font-weight: 800;
+    padding-bottom: 5px;
+    
+}
+.leftsection-everywherepara2{
+    font-size: 24px;
+    font-weight: 400;
+    text-align: left;
+    padding-right: 50px;
+    line-height: 25px;
+
+}
+
+
+/* fifth-section-createprofilekidsection */
+.fifth-section-createprofilekidsection{
+    width: 100%;
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 60px 80px;
+    background-color: #000000;
+    color: #ffffff;
+}
+.leftkid-image{
+    width: 550px;
+}
+.right-kidsection{
+    width: 560px;
+    padding-left: 30px;
+    font-family: "Netflix Sans", "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif;
+}
+.rightkidsection-para1{
+    font-family: "Netflix Sans", "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif;
+    font-size: 46px;
+    font-weight: 800;
+    text-align: left;
+    padding-bottom: 8px;
+}
+.rightkidsection-para2{
+    font-size: 22px;
+    font-weight: 400;
+    text-align: left;
+    line-height: 25px;
+
+}
+
+/* sixth-section--Frequently ask question */
+.frequently-askedquestion{
+    background-color: #000000;
+    color: #ffffff;
+    padding: 50px 155px;
+    font-family: "Netflix Sans", "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif;
+
+}
+.faq-para1{
+    font-size: 48px;
+    text-align: center;
+    color: #ffffff;
+    padding-bottom: 20px;
+    font-weight: 700;
+}
+
+
+details{
+    background-color: #2d2d2d;
+    font-size: 24px;
+    padding: 24px 24px;
+    margin: 10px 0;
+    font-weight: 500;
+    position: relative;
+
+}
+.faq-para2{
+
+    font-size: 22px;
+    font-weight: 400;
+    border:  1px solid black;
+    padding: 15px;
+    margin-top: 10px;
+}
+.article-para3{
+    display: inline-block;
+    border:  1px solid black;
+    padding: 15px;
+    margin-top: 10px;
+
+}
+.faq-para4,.faq-para5,.faq-para6,.faq-para7{
+    font-size: 22px;
+    font-weight: 400;
+
+}
+.faq-para4{
+    padding-bottom: 15px;
+
+}
+.faq-para6{
+    padding-bottom: 15px;
+    
+}
+.summplus{
+    position: absolute;
+    right: 0;
+    right:30px;
+
+    font-size: 35px;
+    font-weight: 400;
+}
+.faq-para8{
+    font-size: 20px;
+    text-align: center;
+    padding: 15px 0;
+    font-weight: 400;
+}
+
+#lastmail{
+    width: 300px;
+    padding: 10px;
+    font-size: 17px;
+    border-radius: 8px;
+    background-color: #23232365;
+    align-items: center;
+    color: #ffffff;
+
+}
+
+.emailid-faqsection{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 5px;
+
+}
+
+.getstartedlast{
+    background-color: #e50914;
+    border-radius: 8px;
+    font-size: 20px;
+    color: #ffffff;
+    font-weight: 600;
+    padding: 12px 24px;
+    margin-left: 10px;
+    transition: all 0.5s;
+
+
+}
+ 
+.getstartedlast:hover{
+    background-color: #b00f17;
+}
+.arrowemail{
+    font-weight: 20px;
+}
+
+
+
+/* Last-section-linkandabout */
+.footersection{
+    padding: 60px 120px;
+    font-family: "Netflix Sans", "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif;
+    background-color: #000000;
+    color: #ffffff;
+
+}
+.Last-section-linkandabout{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding: 20px 0;
+    padding-right: 100px;
+}
+ul{
+    list-style: none;
+}
+.a-lastsection{
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 400;
+    text-decoration: underline;
+    line-height: 38px;
+
+}
+.footer-para1{
+    font-size: 15px;
+    padding-left: 98px;
+}
+.footer-para2{
+    padding-left: 0;
+    padding-top: 10px;
+    font-size: 16px;
+    font-weight: 500;
+}
+#langauge-footersection{
+
+    width: 105px;
+    font-size: 14px;
+    padding: 5px 17px;
+    padding-left: 20px;
+    background-color: #23232366;
+    border: 1px solid #33333376;
+    border-radius: 4px;
+
+}
+.footer-language{
+    position: relative;
+}
+.worldlast{
+    position: absolute;
+    font-size: 12px;
+    top: 33px;
+    left: 12px;
+    z-index: 2;
+}
+.lang-op{
+    font-size: 15px;
+    color: #ffffff;
+    background-color: #0071eb;
+
+}
+.fotter-section-lan{
+    padding-left: 98px;
+    
+}
+
+@media  (max-width:405px)  {
+    @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
+
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    
+    }
+    body{
+        width: 100%;
+        font-family: 'Roboto', sans-serif;
+        font-family: "Netflix Sans", "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif;
+    
+    }
+    
+    .navbar-section{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        padding:10px 0;
+        margin-right: 10px;
+    
+    }
+    a{
+        text-decoration: none;
+        color: #000000;
+    }
+    .imagelogonet{
+        width: 125px;
+    }
+    select{
+        background-color: #16161666;
+        color: white;
+        padding: 6px 20px;
+        font-size: 14px;
+        font-weight: 500;
+        margin: 10px 5px;
+        /* margin-top: 25px; */
+        border: 1px solid #33333376;
+        border-radius: 8px;
+        position: relative;
+    
+        
+    
+    }
+    option{
+        font-size: 14px;
+        color: #ffffff;
+        background-color: #0071eb;
+    }
+    .sign-in{
+        position: relative;
+    }
+    .world{
+        position: absolute;
+        top:18px;
+        right: 158px; 
+        color: #ffffff;
+        font-size: 14px;
+        z-index: 5;
+    }
+    .signin-header{
+        font-size: 14px;
+        font-weight: 500;
+        text-align: center;
+        padding: 7px 10px;
+        background-color: #e50914;
+        color: #ffffff;
+        border-radius: 8px;
+        transition: all 0.5s;
+    }
+    
+    .signin-header:hover{
+        background-color: #9e0f19;
+    }
+
+    .Email-section{
+        margin-top: 30px;
+        padding: 5px 20px;
+        text-align: center;
+
+
+    }
+     .emailsection-para1{
+        font-size: 30px;
+        text-align: center;
+        font-weight: 700;
+        padding: 0 30px;
+        margin-bottom: 15px;
+        color: #ffffff; 
+    }
+    .emailsection-para2{
+        font-size: 18px;
+        font-weight: 400;
+        text-align: center;
+        margin-bottom: 15px;
+        color: #ffffff;
+    }
+    .emailsection-para3{
+        font-size: 17px;
+        font-weight: 400;
+        text-align: center;
+        margin-bottom: 12px;
+        padding: 0 30px;
+        color: #ffffff;
+    
+    } 
+    #Email-IDleft{
+        width: 300px;
+        padding: 10px;
+        font-size: 16px;
+        border-radius: 5px;
+        background-color: #16161666;
+        color: #ffffff;
+
+        
+    }
+    .get-startedright{
+        display: block;
+        background-color: #e50914;
+        border-radius: 5px;
+        font-size: 14px;
+        color: #ffffff;
+        font-weight: 500;
+        padding: 10px 15px;
+        margin: 20px 110px;
+        transition: all 0.5s;
+    
+    }
+     .get-startedright:hover{
+        background-color: #b00f17;
+    }
+    .arrow{
+        font-size: 16px;
+        font-weight: 800;
+    }
+    .first-sectionNetflix{
+        width: 100%;
+        height:425px;
+        background-image: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.6)), url("backgroundimagenetflix.jpg");
+        background-size: 120% 130%;
+        background-repeat: no-repeat;
+                   
+    }
+    
+    .bootom-line{
+        width: 100%;
+        height: 6px;
+        background-color: #333333;
+    }
+
+    /* section2---Enjoy Section  */
+    .Enjoy-section{
+
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        padding: 40px 30px;
+        background-color: #000000;
+        color: #ffffff;
+        
+    }
+    .tv-netflix{
+        width: 300px;
+        background-image: url(https://i.gifer.com/H95B.gif);
+        background-repeat: no-repeat;
+        background-size: 100% -10%;
+        background-position-y: center;
+        background-position-x: center;
+        margin-bottom: 25px; 
+
+
+
+     }
+     
+    .enjoy-leftsection{
+        text-align: center;
+        padding-bottom: 0px;
+        width: 360px;
+        padding-right: 50px;
+        padding-top: 8px;
+    }
+    .enjoy-rightsection{
+        padding-right: 40px;
+    }
+    .leftsection-enjoypara1{
+        font-size: 28px;
+        font-weight: 600;
+        text-align: center;
+        line-height: 50px;
+    }
+    .leftsection-enjoypara2{
+        font-size: 17px;
+        font-weight: 400;
+        text-align: center;
+        padding: 5px 0px;
+        line-height: 22px;
+    } 
+    /* Thirdsection-DownloadTVshow */
+    .Thirdsection-DownloadTVshow{
+        display: flex;
+        flex-direction: column-reverse;
+        flex-wrap: wrap-reverse;
+        justify-content: center;
+        padding: 50px 30px;
+        background-color: #000000;
+        color: #ffffff; 
+    
+    }
+    .moblieimage{
+        width: 300px;
+    }
+
+    .rightdownload-infosection{
+        width: 100%;
+        padding-top: 12px;
+    }
+    .rightdownload-infosectionpara-1{
+        /* font-size: 25px;
+        font-weight:700;
+        text-align: center; */
+        font-size: 26px;
+        font-weight:600;
+        padding-right:0; 
+         text-align: center;
+    }
+    .rightdownload-infosectionpara-2{
+      
+        font-size: 17px;
+        font-weight: 400;
+        padding: 10px 0;
+        text-align: center;
+     
+    }
+    .leftdownload-imagesection{
+        position: relative;
+    }
+
+     .strangerthing-download{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        width: 210px;
+        background-color: #000000;
+        border: 1px solid #ffffff;
+        padding: 3px 2px;
+        box-shadow: rgb(0, 0, 0) 0px 0px 30px 0px ;
+        border-radius: 12px;
+        position: absolute;
+        top: 0%;
+        right:78px;
+        top: 155px;
+        
+    } 
+   .strangerthing-poster{
+        width: 32px;
+    
+    }
+    .downloadimage-gif{
+        width: 35px;
+        transition: all 0.5s; 
+    }
+    .download-stpara1{
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 20px;
+        color: #ffffff;
+    }
+    .download-stpara2{
+        font-size: 10px;
+        font-weight: 400;
+        color: #0071eb;
+    }
+    .download-st{
+        align-self: center;
+        margin-left: -10px;
+        
+    }
+    .bootom-line{
+        width: 100%;
+        height: 6px;
+        background-color: #333333;
+    }
+
+    /* fourth-section-everywhere */
+    .fouth-section-everyWhere{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        padding: 30px 20px;
+        padding-bottom: 50px;
+        background-color: #000000;
+        color: #ffffff;
+    }
+    .appletv{
+        width: 290px;
+        background-image: url(OvCg.gif);
+        margin-top: 12px;
+        background-repeat: no-repeat;
+        background-size: 70% 60%;
+        background-position-x: 40%;
+        background-position-y: 10%;
+        overflow: hidden;
+        padding-right: 20px;
+        box-shadow: rgb(0, 0, 0) 0px 0px 80px 0px ;
+    }
+    .leftsection-everywhere{
+
+        /* width: 6000px; */
+        text-align: center;
+        padding: 5px 5px;
+    }
+    .leftsection-everywherepara1{
+        font-size: 28px;
+        font-weight: 600;
+        text-align: center;
+        line-height: 50px;
+        
+    }
+    .leftsection-everywherepara2{
+        font-size: 17px;
+        font-weight: 400;
+        text-align: center;
+        padding: 5px 0px;
+        line-height: 22px;
+    
+    }
+    .rightsection-everywhere{
+        padding-top: 15px;
+
+    }
+
+    /* fifth-section-createprofilekidsection */
+    .fifth-section-createprofilekidsection{
+        width: 100%;
+        display: flex;
+        flex-direction: row-reverse;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        padding: 30px 5px;
+        background-color: #000000;
+        color: #ffffff;
+        padding-bottom: 50px;
+    }
+    .leftkid-image{
+        width: 280px;
+    }
+    .right-kidsection{
+        margin-left: -20px;
+        text-align: center;
+        padding-bottom: 30px;
+        font-family: "Netflix Sans", "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif;
+    }
+    .rightkidsection-para1{
+        font-family: "Netflix Sans", "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif;
+        font-size: 28px;
+        font-weight: 600;
+        text-align: center;
+        line-height: 50px;
+    }
+    .rightkidsection-para2{
+        font-size: 17px;
+        font-weight: 400;
+        text-align: center;
+        padding: 5px 0px;
+        line-height: 22px;
+        padding: 0 20px;
+    
+    }
+    /* sixth-section--Frequently ask question */
+    .frequently-askedquestion{
+        width: 100%;
+    
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: flex-start;
+        padding: 30px 60px;
+        background-color: #000000;
+        color: #ffffff;
+        font-family: "Netflix Sans", "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif;
+        
+    }
+    .faq-para1{
+        font-size: 20px;
+        font-weight: 600;
+        text-align: left;
+        /* margin-left: -15px; */
+        padding-bottom: 15px;
+
+    }
+    details{
+        background-color: #2d2d2db6;
+        width: 100%;
+        font-size: 15px;
+        padding: 15px 15px;
+        margin: 3px 0;
+        font-weight: 400;
+        position: relative;
+    }
+    .faq-para2{
+        font-size: 15px;
+        font-weight: 400;
+        border:  1px solid black;
+        padding: 10px;
+        margin-top: 15px;
+        border-radius: 5px;
+        text-align: left;
+    }
+    .article-para3{
+        font-size: 15px;
+        font-weight: 400;
+        border:  1px solid black;
+        padding: 10px;
+        margin-top: 15px;
+        border-radius: 5px;
+        text-align: left;
+    }
+    .faq-para4,.faq-para5,.faq-para6,.faq-para7{
+        font-size: 15px;
+        font-weight: 400;
+    }
+    .faq-para4{
+        padding-bottom: 10px;
+    
+    }
+    .faq-para6{
+        padding-bottom: 10px;
+        
+    }
+    .summplus{
+        position: absolute;
+        font-size: 18px;
+        font-weight: 500;
+        right: 11px;
+        top: 15px;
+
+
+    }
+    .faq-para8{
+        font-size: 17px;
+        padding: 20px;
+        text-align: center;
+    }
+    #lastmail{
+        width: 270px;
+        padding: 10px;
+        background-color: #16161666;
+        color: #ffffff;
+        border-radius: 5px;
+        margin-bottom: 18px;
+        
+    }
+    .emailid-faqsection{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-top: 5px;
+    
+    }
+    .getstartedlast{
+
+        font-size: 17px;
+        font-weight: 500;
+        background-color: #e50914;
+        color: #ffffff;
+        padding: 8px 20px;
+        /* line-height: 30px; */
+        border-radius: 5px;
+        /* margin-left: 26%;3 */
+        transition: all 0.5s ease-in;
+    }
+    .getstartedlast:hover{
+        background-color: #9e0f19;
+
+    }
+
+    /* Last-section-linkandabout */
+    .footersection{
+        padding: 40px 20px;
+        font-family: "Netflix Sans", "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif;
+        background-color: #000000;
+        color: #ffffff;
+    
+    }
+    .Last-section-linkandabout{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: flex-start;
+        padding: 10px 0;
+        
+    }
+    ul{
+        list-style: none;
+    }
+    .a-lastsection{
+        color: #ffffff;
+        font-size: 14px;
+        font-weight: 400;
+        text-decoration: underline;
+        line-height: 30px;
+    }
+    .footer-para1{
+        font-size: 14px;
+        padding-left: 0;
+
+    }
+    .footer-para2{
+        padding-left: 0;
+        padding-top: 10px;
+        font-size: 14px;
+        font-weight: 500;
+    }
+    #langauge-footersection{
+    
+        /* width: 105px; */
+        font-size: 14px;
+        padding: 5px 17px;
+        background-color: #23232366;
+        border: 1px solid #33333376;
+        border-radius: 4px;
+    
+    }
+    .footer-language{
+        position: relative;
+    }
+    .worldlast{
+        position: absolute;
+        font-size: 12px;
+        top: 18px;
+        left: 10px;
+        z-index: 2;
+    }
+    .lang-op{
+        font-size: 14px;
+        color: #ffffff;
+        background-color: #0071eb;
+    
+    } 
+    .fotter-section-lan{
+        padding-left: 0px;
+        
+    }
+}
+
+
+
+
